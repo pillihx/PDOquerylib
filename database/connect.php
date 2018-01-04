@@ -15,4 +15,4 @@ $_SERVER["con"] = new PDO("mysql:host=$server", $username, $pass);
 $_SERVER["con"]->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
-?>
+?
